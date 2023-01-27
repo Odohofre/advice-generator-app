@@ -7,6 +7,9 @@ module.exports = {
         "divider-desktop": "url('./images/pattern-divider-desktop.svg')",
         "divider-mobile": "url('./images/pattern-divider-mobile.svg')",
       },
+      boxShadow: {
+        button: "0 0 10px 15px rgba(82, 255, 168, 1)",
+      },
       colors: {
         attribute: "#3e52a3",
         primary: {
