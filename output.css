@@ -521,8 +521,8 @@ video {
   position: relative;
 }
 
-.top-6 {
-  top: 1.5rem;
+.top-8 {
+  top: 2rem;
 }
 
 .left-1\/2 {
@@ -560,11 +560,6 @@ video {
 
 .h-4 {
   height: 1rem;
-}
-
-.min-h-max {
-  min-height: -moz-max-content;
-  min-height: max-content;
 }
 
 .min-h-min {
@@ -723,6 +718,12 @@ video {
   color: rgb(82 255 168 / var(--tw-text-opacity));
 }
 
+.hover\:shadow-button:hover {
+  --tw-shadow: 0 0 28px 13px rgba(82, 255, 168, 0.4);
+  --tw-shadow-colored: 0 0 28px 13px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 @media (min-width: 768px) {
   .md\:mb-8 {
     margin-bottom: 2rem;
@@ -730,6 +731,10 @@ video {
 
   .md\:rounded-xl {
     border-radius: 0.75rem;
+  }
+
+  .md\:pb-16 {
+    padding-bottom: 4rem;
   }
 
   .md\:text-lg {
@@ -743,11 +748,16 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:mt-8 {
-    margin-top: 2rem;
+  .lg\:mt-10 {
+    margin-top: 2.5rem;
   }
 
   .lg\:bg-divider-desktop {
     background-image: url('./images/pattern-divider-desktop.svg');
+  }
+
+  .lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
