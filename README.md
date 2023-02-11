@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github repo](https://github.com/Odohofre/advice-generator-app)
-- Live Site URL: [Live Sit](https://advice-generator-app-eight-neon.vercel.app/)
+- Live Site URL: [Live Site](https://advice-generator-app-eight-neon.vercel.app/)
 
 ## My process
 
